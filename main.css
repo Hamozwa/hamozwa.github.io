@@ -1,18 +1,27 @@
 
 body {
     background-color: darkcyan;
-    color: white;
     text-align: center;
     border: 2px solid powderblue;
-    padding: 30px;
+    margin: 50px;
 }
 
-h1 {
+header {
+    background-color: cadetblue;
     font-size: 50px;
     font-family: Verdana;
+    color: aliceblue;
+    padding: 30px;
 }
 
 p {
     font-family: Verdana;
     
 }
+
+.flex-container {
+    display: flex;
+    background-color: white;
+    color: darkcyan;
+    flex-direction: column;
+  }
