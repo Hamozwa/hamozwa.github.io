@@ -1,0 +1,18 @@
+
+body {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    border: 2px solid powderblue;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Verdana;
+}
+
+p {
+    font-family: Verdana;
+    
+}
