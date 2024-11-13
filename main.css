@@ -112,3 +112,33 @@ section p {
 .contact a:hover {
     text-decoration: underline;
 }
+
+footer {
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 20px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer nav ul li a {
+    font-size: 1em;
+    padding: 5px 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
