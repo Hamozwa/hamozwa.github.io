@@ -149,9 +149,10 @@ footer nav ul li a:hover {
 
 .introduction {
     text-align: center;
+    margin-top: 5%;
 }
 
-.introduction h2 {
+h2 {
     text-align: center;
     width: 100%;
 }
@@ -171,4 +172,17 @@ footer nav ul li a:hover {
     border: 5px solid darkcyan;
     margin-left: 5%;
     margin-right: 10%;
+}
+
+.about {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.about h2, .about h3 {
+    text-align: center;
+}
+
+.about p {
+    margin: 10px 0;
 }
