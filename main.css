@@ -1,5 +1,9 @@
+html {
+    min-height: 100%;
+}
+
 body {
-    background-color: darkcyan;
+    background: linear-gradient(rgb(124, 214, 214), darkcyan) no-repeat;
     text-align: center;
     border: none;
     color: whitesmoke;
@@ -141,4 +145,30 @@ footer nav ul li a {
 
 footer nav ul li a:hover {
     text-decoration: underline;
+}
+
+.introduction {
+    text-align: center;
+}
+
+.introduction h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.introduction .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.profile-pic {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: 5px solid darkcyan;
+    margin-left: 5%;
+    margin-right: 10%;
 }
