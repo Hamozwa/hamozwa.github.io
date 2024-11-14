@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Projects - Hamozwa</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -51,7 +52,7 @@
                 </a>
             </div>
             <div class="project">
-                <a href="https://hamozwa.github.io/projects.html" class="project-link">
+                <a href="#" class="project-link" id="confetti-button">
                     <img src="site.png" alt="meta photo" class="project-image">
                     <div class="project-content">
                         <h3>This site!</h3>
@@ -70,5 +71,15 @@
             </nav>
         </footer>
     </div>
+    <script> /*my javascript knowledge is somewhat limited atm, so this is pretty much copied from elsewhere*/
+        document.getElementById('confetti-button').addEventListener('click', function(event) {
+            event.preventDefault();
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+        });
+    </script>
 </body>
 </html>
