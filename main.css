@@ -2,6 +2,8 @@ html {
     min-height: 100%;
 }
 
+/*---------------------------------GENERAL------------------------------------------------*/
+
 body {
     background: linear-gradient(rgb(124, 214, 214), darkcyan) no-repeat;
     text-align: center;
@@ -20,6 +22,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #333;
 }
+
+
+/*---------------------------------HEADER------------------------------------------------*/
 
 header {
     position: relative;
@@ -82,6 +87,9 @@ p {
     font-family: Verdana;
 }
 
+
+/*---------------------------------MAIN------------------------------------------------*/
+
 .flex-container {
     display: flex;
     background-color: white;
@@ -117,6 +125,9 @@ section p {
     text-decoration: underline;
 }
 
+
+/*---------------------------------FOOTER------------------------------------------------*/
+
 footer {
     background-color: darkcyan;
     color: aliceblue;
@@ -147,9 +158,11 @@ footer nav ul li a:hover {
     text-decoration: underline;
 }
 
+
+/*---------------------------------INTRODUCTION------------------------------------------------*/
+
 .introduction {
     text-align: center;
-    margin-top: 5%;
 }
 
 h2 {
@@ -187,6 +200,9 @@ h2 {
     margin: 10px 0;
 }
 
+
+/*---------------------------------PROJECT------------------------------------------------*/
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -223,4 +239,58 @@ h2 {
 
 .project-content p {
     margin: 10px 0 0;
+}
+
+
+/*---------------------------------ABOUT------------------------------------------------*/
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: darkcyan;
+}
+
+.experience-item .company {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.experience-item .description {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: darkcyan;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.section-box {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-box p, .section-box ul {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.section-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.section-box ul li {
+    margin-bottom: 10px;
 }
